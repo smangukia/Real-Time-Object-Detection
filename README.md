@@ -1,6 +1,6 @@
 # Real-Time-Object-Detection
 This is a custom object detection project created in jupyter notebook using TensorFlow Object Detection API and trained on pretrained model such as SSD MobileNet V2 FPNLite 320x320 from TensorFlow model zoo for intializing the custom model when training on novel datasets.
-Built this project after learning from the TensorFlow Object Detection course by nicknochnack.
+Built this project after learning from the TensorFlow Object Detection course online.
 
 ![rttfod3](https://user-images.githubusercontent.com/44052764/175282003-61fa42a8-9d99-41a5-b7d3-80cfe15f3c33.png)
 ## Steps  
