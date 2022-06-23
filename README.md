@@ -9,28 +9,28 @@ Built this project after learning from the TensorFlow Object Detection course on
 
 **Step 2.** Create a new virtual environment
 
-            `python -m venv rttfod`  
+             python -m venv rttfod  
             
 **Step 3.** Activate the virtual environment
 
-            `.\rttfod\Scripts\activate # Windows `  
+             .\rttfod\Scripts\activate # Windows  
             
 **Step 4.** Install dependencies and add virtual environment to the Python Kernel
 
-            `python -m pip install --upgrade pip
+             python -m pip install --upgrade pip
             
              pip install ipykernel
              
-             python -m ipykernel install --user --name=rttfod`  
+             python -m ipykernel install --user --name=rttfod  
              
 **Step 5.** Collect images using the Notebook 1. Image Collection.ipynb - ensure you change the kernel to the virtual environment
             As developed the virtual environment named rttfod, ensure that the upper right corner of your jupyter notebook has rttfod as the kernel  
             
 **Step 6.** Manually divide the collected images into two folders train and test. So, now all the folders and annotations should be split between the following two folders.
 
-            \TFODCourse\Tensorflow\workspace\images\train
+             \TFODCourse\Tensorflow\workspace\images\train
             
-            \TFODCourse\Tensorflow\workspace\images\test  
+             \TFODCourse\Tensorflow\workspace\images\test  
             
 **Step 7.** Begin the training process by opening 2. Training and Detection.ipynb, this notebook will walk you through installing Tensorflow Object Detection, making detections, saving and exporting your model.  
 
@@ -40,10 +40,10 @@ Built this project after learning from the TensorFlow Object Detection course on
 
 **Step 10.** You can optionally evaluate your model inside of Tensorboard. Once the model has been trained and you have run the evaluation command under Step 7. Navigate to the evaluation folder for your trained model.  
 
-            `cd Tensorlfow/workspace/models/my_ssd_mobnet/eval`  
+             cd Tensorlfow/workspace/models/my_ssd_mobnet/eval  
             
 and open Tensorboard with the following command
 
-            `tensorboard --logdir=.`  
+             tensorboard --logdir=.  
             
 Tensorboard will be accessible through your browser and you will be able to see metrics including mAP - mean Average Precision, and Recall.           
